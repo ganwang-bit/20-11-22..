@@ -1,0 +1,88 @@
+#include<stdio.h>
+int mian()
+{
+    return 0;
+}
+//#include<stdio.h>
+//void paixu(int a,int b,int c);
+//int main()
+//{
+//	int a,b,c;
+//	scanf("%d %d %d",&a,&b,&c);
+//	paixu(a,b,c);
+//	return 0;
+//}
+//
+//void paixu(int a,int b,int c)
+//{
+//	int t;
+//	if(a>=b)
+//	{
+//		a=a;
+//		b=b;
+//	}
+//	else
+//	{
+//		t=a;
+//		a=b;
+//		b=t;
+//	}
+//	if(a>=c)
+//	{
+//		a=a;
+//		c=c;
+//	}
+//	else
+//	{
+//		t=a;
+//		a=c;
+//		c=t;
+//	 }
+//	if(b>=c)
+//	{
+//		b=b;
+//		c=c;
+//	}
+//	else
+//	{
+//		t=b;
+//		b=c;
+//		c=t;
+//	}
+//    printf("%d %d %d",a,b,c);
+//}
+//
+////#include<stdio.h>
+////int main()
+////{
+////    int z,a;
+////    for(int x=100;x<1000;x++)
+////    {
+////        z=x;
+////        int y=0;
+////        while(z>0)
+////        {
+////            a=z%10;
+////            y =y+a*a*a;
+////            z=z/10;
+////        }
+////        if(y==x)
+////            printf("%d ",x);
+////    }
+////    return 0;
+////}
+////*#include<stdio.h>
+////int main()
+////{
+////    int x,y,a,b,c;
+////    for(x=100;x<1000;x++)
+////    {
+////        a=x%10;
+////        b=x/10%10;
+////        c=x/100%10;
+////        y = c*100+b*10+a;
+////        if(y==x)
+////            printf("%d ",x);
+////    }
+////    return 0;
+////}*/
